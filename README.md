@@ -5,7 +5,7 @@
 
 # Summary
 
-traffic crashes are responsibles for more than 1 milion deaths every year worldwide and many more left injured. For that matter, Machine learning can help to analyze  the risks and reduce them. 
+Traffic crashes are responsibles for more than 1 milion deaths every year worldwide and many more are left injured. For that matter, machine learning can help to analyze  the risks and reduce them. 
 This project is based on the Chicago databases, divided by crashes, people and vehicles. From there, we will analyse and predict the primary cause of the traffic accident based on several features. We are aware that our target variable represents a multiclass classification problem for this reason we will use in our models classifiers such as Decisions Trees , Random Forest and Bagging classifiers.
 
 
