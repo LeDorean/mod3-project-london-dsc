@@ -14,24 +14,26 @@ This project is based on the Chicago databases, divided by crashes, people and v
 
 Traffic crash data can be obtained at [Chicago Data Portal](https://data.cityofchicago.org/), exporting directly from the website. The links and descriptions of datasets are listed below:
 
-[Traffic Crashes - Crashes](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if) - Crashes: Major dataset for this project.
-[Traffic Crashes - Vehicles](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3) - Vehicles: Information of related vehicles.
-[Traffic Crashes - People](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d) - People:Information of related people.
+--[Traffic Crashes - Crashes](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if) - Crashes: Major dataset for this project.
+
+--[Traffic Crashes - Vehicles](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3) - Vehicles: Information of related vehicles.
+
+--[Traffic Crashes - People](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d) - People:Information of related people.
 
 
 
 
 # Language and Packages Used
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler 
-from sklearn.metrics import precision_score, recall_score, accuracy_score, f1_score, roc_auc_score
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.datasets import make_classification
+--import pandas as pd
+--import numpy as np
+--import matplotlib.pyplot as plt
+--%matplotlib inline
+--from sklearn.model_selection import train_test_split
+--from sklearn.preprocessing import StandardScaler 
+--from sklearn.metrics import precision_score, recall_score, accuracy_score, f1_score, roc_auc_score
+--from sklearn.ensemble import RandomForestClassifier
+--from sklearn.datasets import make_classification
 
 
 
@@ -40,7 +42,9 @@ from sklearn.datasets import make_classification
 For this project, sodapy, shapely and geopandas were used to plot all the police report ids in the Chicago area.
 The links and descriptions of all libraries are listed below:
 
-[sodapy](https://pypi.org/project/sodapy/) - This library supports writing directly to datasets with the Socrata Open Data API.
-[shapely](https://pypi.org/project/Shapely/) - For manipulation and analysis of planar geometric objects.
-[geopandas](https://geopandas.org/) - GeoPandas is an open source project to make working with geospatial data in python.
+--[sodapy](https://pypi.org/project/sodapy/) - This library supports writing directly to datasets with the Socrata Open Data API.
+
+--[shapely](https://pypi.org/project/Shapely/) - For manipulation and analysis of planar geometric objects.
+
+--[geopandas](https://geopandas.org/) - GeoPandas is an open source project to make working with geospatial data in python.
 
